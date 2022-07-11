@@ -1,6 +1,6 @@
 part of 'models.dart';
 
-class Food {
+class Food extends Equatable {
   final int id;
   final String picturePath;
   final String name;
@@ -19,7 +19,7 @@ class Food {
       required this.rate});
 
   @override
-  List<Object?> get props => throw UnimplementedError();
+  List<Object?> get props => [id, picturePath, name, description, ingredients, price, rate];
       // [id, picturePath, name, description, ingredients, price, rate];
 }
 
