@@ -67,9 +67,9 @@ class IllustrationPage extends StatelessWidget {
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(8)),
                     child: Text(
-                      buttonTitle1,
+                      buttonTitle2 ?? 'title',
                       style:
-                          blackFontStyle3.copyWith(fontWeight: FontWeight.w500),
+                          blackFontStyle3.copyWith(fontWeight: FontWeight.w500, color: Colors.white),
                     ),
                   ),
                 )
