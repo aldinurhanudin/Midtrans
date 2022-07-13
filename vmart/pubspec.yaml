@@ -43,6 +43,7 @@ dependencies:
   material_design_icons_flutter: ^5.0.6595
   intl: ^0.17.0
   equatable: ^2.0.3
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
